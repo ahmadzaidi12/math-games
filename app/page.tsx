@@ -7,10 +7,9 @@ export default function Home() {
         <h1 className="text-5xl font-bold text-black dark:text-white">
           Math Games
         </h1>
-        <p className="text-lg text-zinc-600 dark:text-zinc-400">
-          Do you think you have momentum?
-        </p>
-        <Button href="/bumper-shuttles">Bumper Shuttles</Button>
+        <Button href="/bumper-shuttles" subtitle="Do you think you have momentum?">
+          Bumper Shuttles
+        </Button>
       </main>
     </div>
   );
