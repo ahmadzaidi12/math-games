@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Button from "@/components/Button";
 
 export default function Home() {
   return (
@@ -10,12 +10,7 @@ export default function Home() {
         <p className="text-lg text-zinc-600 dark:text-zinc-400">
           Do you think you have momentum?
         </p>
-        <Link
-          href="/bumper-shuttles"
-          className="mt-4 flex h-12 items-center justify-center rounded-full bg-black px-8 text-white transition-colors hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
-        >
-          Bumper Shuttles
-        </Link>
+        <Button href="/bumper-shuttles">Bumper Shuttles</Button>
       </main>
     </div>
   );
